@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":"yBAEAA,OAAOC,OAAO,EAAG,GACjBD,OAAOE,SAASF,OAAOG,OAAOC,MAAOJ,OAAOG,OAAOE,O","sources":["webpack://blog/./src/index.js"],"sourcesContent":["import \"../css/style.css\";\n\nwindow.moveTo(0, 0);\nwindow.resizeTo(window.screen.width, window.screen.height);\n"],"names":["window","moveTo","resizeTo","screen","width","height"],"sourceRoot":""}
