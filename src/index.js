@@ -4,9 +4,7 @@ window.moveTo(0, 0);
 window.resizeTo(window.screen.width, window.screen.height);
 
 function stopDefAction(evt) {
-    evt.preventDefault();
+  evt.preventDefault();
 }
 
-document.getElementById('send').addEventListener(
-    'click', stopDefAction, false
-);
+document.getElementById("send").addEventListener("click", stopDefAction, false);
