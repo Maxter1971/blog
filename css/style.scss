@@ -1,0 +1,117 @@
+.page-header {
+    display: grid;
+    position: relative;
+    width: 100%;
+    height: 170px;
+    font-size: calc(1em * 1.3);
+    text-align: center;
+    /*font-family: "Arial Black", Gadget, sans-serif;*/    
+    grid-template-columns: 1fr 1fr 1fr;
+    .img{
+      display: grid;
+      position: relative;  
+    }
+      .navigation {
+        display: flex;
+        position: relative;
+        justify-content: space-between;    
+        width: 400px;
+        margin: 70px;            
+        li {
+          position: relative;
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+          a {
+            text-decoration: none;
+            color: brown;
+          }
+          #page-header__main {
+            text-decoration: none;
+            color: #252525;
+          }
+        }
+      }
+  }
+
+  .main {
+    display:grid;
+    position: relative;
+    width: 100%;
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+    font-size: 1em;
+    text-align: center;
+    .center{
+      padding: 0px 180px;
+    }
+    .blog {      
+      .blog__li {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-decoration: underline;
+        .blog__li__ablog {
+          color: #252525;
+        }
+      }
+    }    
+  }
+  .footer {
+    display: grid;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 10px;    
+    grid-template-columns: 1fr;
+    color: brown;
+    .footer__pc {
+      display: grid;
+      position: relative;
+    }
+  }
+
+  .color {
+    background: bisque;
+  }
+  
+  form {
+    display: grid;
+    margin: 0 auto;
+    padding: 24px 0 0;
+    width: 620px;
+  }
+  form input,
+  #body form textarea {
+    border: 2px solid #252525;
+    color: #252525;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 0 37px;
+    padding: 20px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 596px;
+  }
+  form textarea {
+    height: 175px;
+    overflow: auto;
+    resize: none;
+  }
+  form #send {
+    background: brown;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px 28px;
+    width: auto;
+  }
+  form #send:hover {
+    background: #fff;
+    color: #252525;
+    cursor: pointer;
+  }
+  .font {
+    font-family: "Arial Black", Gadget, sans-serif;
+  }
